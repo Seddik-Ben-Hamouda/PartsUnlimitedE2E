@@ -10,6 +10,7 @@ namespace PartsUnlimited.Models
         public int CartItemId { get; set; }
 
         [Required]
+        // my second change
         public string CartId { get; set; }
         public int ProductId { get; set; }
         public int Count { get; set; }
